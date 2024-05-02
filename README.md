@@ -13,7 +13,8 @@ Contato: ......
 ## EnvioEmail
 Para efetuar o envio de e-mail, necessário fazer algumas configurações dentro do arquivo config/Define.php
 
-`function EnviarEmail( $origem, $nomeOrigem, $destino, $assunto, $mensagem ){
+'
+  function EnviarEmail( $origem, $nomeOrigem, $destino, $assunto, $mensagem ){
     require_once "./vendor/phpmailer/class.phpmailer.php";
     require_once "./vendor/phpmailer/class.smtp.php";
 
@@ -45,4 +46,5 @@ Para efetuar o envio de e-mail, necessário fazer algumas configurações dentro
       return "Ok";
     }
 
-  }`
+  }
+'
