@@ -52,7 +52,7 @@
 	<link href="css/siloe.css" rel="stylesheet" />
 </head>
 
-<body>
+<body id="Body">
 
 	<?php 
 		if( isset($_GET['Page']) ){ $Page = $_GET['Page']; }
