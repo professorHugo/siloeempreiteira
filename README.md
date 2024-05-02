@@ -17,27 +17,27 @@ Dentro de `function EnviarEmail( $origem, $nomeOrigem, $destino, $assunto, $mens
 Faça as configurações desejadas
 
 /** Definição para envio via SMTP */
-$mail->isSMTP();
+`$mail->isSMTP();
 $mail->setLanguage("br", "./venddor/phpmailer/language/");
 $mail->CharSet = "utf-8";
 $mail->isHTML(true);
+`
 
-
-/** usando o e-mail de contato */
-$mail->Host = "";
-$mail->Port = 587; 
-$mail->SMTPSecure = "";
-$mail->SMTPDebug = 1;
-$mail->SMTPAuth = true;
-$mail->Username = "";
-$mail->Password = "";
-$mail->From = $origem;
-$mail->FromName = $nomeOrigem;
-$mail->Subject = $assunto;
-$mail->addAddress($destino);
-$mail->msgHTML($mensagem);
-if( !$mail->Send() ){
+`/** usando o e-mail de contato */`
+Servidor: `$mail->Host = "";`
+Porta: `$mail->Port = 587;` 
+Se necessário adicione: `$mail->SMTPSecure = "";`
+Para geração de log: `$mail->SMTPDebug = 1;`
+Se o e-mail requer autenticação: `$mail->SMTPAuth = true;` // A maioria precisa
+Usuário no provedor: `$mail->Username = "";`
+Senha no provedor: `$mail->Password = "";`
+Origem será o que foi definido no parametro da função: `$mail->From = $origem;`
+Nome será o que foi definido no parametro da função: `$mail->FromName = $nomeOrigem;`
+Assunto será o que foi definido no parametro da função: `$mail->Subject = $assunto;`
+Destino será o que foi definido no parametro da função: `$mail->addAddress($destino);`
+Mensagem será o que foi definido no parametro da função:`$mail->msgHTML($mensagem);`
+`if( !$mail->Send() ){
   return "Erro ao enviar o contato, tente novamente mais tarde.";
 }else{
   return "Ok";
-}
+}`
