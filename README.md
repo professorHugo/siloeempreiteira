@@ -36,8 +36,5 @@ Nome será o que foi definido no parametro da função: `$mail->FromName = $nome
 Assunto será o que foi definido no parametro da função: `$mail->Subject = $assunto;`  
 Destino será o que foi definido no parametro da função: `$mail->addAddress($destino);`  
 Mensagem será o que foi definido no parametro da função:`$mail->msgHTML($mensagem);`  
-`if( !$mail->Send() ){  
-  return "Erro ao enviar o contato, tente novamente mais tarde.";  
-}else{  
-  return "Ok";  
-}`  
+A função em seguinda executa o envio e oferece um return  
+`if(!$mail->Send()){ return "Erro ao enviar o contato, tente novamente mais tarde."; }else{ return "Ok"; }`  
