@@ -3,11 +3,11 @@
     <div class="mapa-do-site col-12 col-md-4">
       <h3>Mapa do Site</h3>
       <ul>
-        <li><a href="#">Página Inicial</a></li>
-        <li><a href="#">Serviços</a></li>
-        <li><a href="#">Projetos</a></li>
-        <li><a href="#">Sobre Nós</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="/">Página Inicial</a></li>
+        <li><a href="?Page=Jobs">Serviços</a></li>
+        <li><a href="?Page=Projects">Projetos</a></li>
+        <li><a href="?Page=About">Sobre Nós</a></li>
+        <li><a href="?Page=Contact">Contato</a></li>
       </ul>
     </div>
 
@@ -47,7 +47,7 @@
 
 
     <div class="desenvolvedor col-12 text-center">
-      <hr>
+      <hr class="hr">
       <p class="lead">Siloé Empreiteira&trade; - Todos os direitos reservados <?= date("Y")?></p>
       <p class="lead">Desenvolvido por <a target="_blank" href="https://n2y.com.br"> Agência N2Y </a> em parceria com 
       <a target="_blank" href="https://www.instagram.com/raphaferrari.design"> Raphael Ferrari</a></p>

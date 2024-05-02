@@ -2,6 +2,26 @@
 <?php
 	if( isset($_GET['Page']) ){ $Page = $_GET['Page']; }
 	else{ $Page = 'Início' ;}
+
+	switch($Page){
+		case 'About': 
+			$ComplementoDescription = " - Conheça sobre nós";
+			$PageTitle = "Sobre nós";
+		break;
+		case 'Jobs': 
+			$ComplementoDescription = " - Veja nossos serviços";
+			$PageTitle = "Serviços";
+		break;
+		case 'Projects': 
+			$ComplementoDescription = " - Veja nossos projetos atuais";
+			$PageTitle = "Projetos";
+		break;
+		case 'Contact': 
+			$ComplementoDescription = " - Entre em contato conosco para um orçamento";
+			$PageTitle = "Contato";
+		break;
+			default: $PageTitle = "Página Inicial"; $ComplementoDescription = " - Seja bem vindo";
+	}
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -9,9 +29,9 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	<meta name="description" content="<?= $SiteDescription ?>" />
+	<meta name="description" content="<?= $SiteDescription . $ComplementoDescription ?>" />
 	<meta name="author" content="<?= $SiteAuthor ?>" />
-	<title><?= $SiteName . " - " . $Page ?></title>
+	<title><?= $SiteName . " - " . $PageTitle ?></title>
 	<!-- <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
