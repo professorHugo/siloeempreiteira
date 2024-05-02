@@ -14,26 +14,26 @@ Contato: ......
 Para efetuar o envio de e-mail, necessário fazer algumas configurações dentro do arquivo config/Define.php
 
 `function EnviarEmail( $origem, $nomeOrigem, $destino, $assunto, $mensagem ){
-    require_once './vendor/phpmailer/class.phpmailer.php';
-    require_once './vendor/phpmailer/class.smtp.php';
+    require_once "./vendor/phpmailer/class.phpmailer.php";
+    require_once "./vendor/phpmailer/class.smtp.php";
 
     $mail = new PHPMailer(true);
 
     /** Definição para envio via SMTP */
     $mail->isSMTP();
-    $mail->setLanguage('br', './venddor/phpmailer/language/');
-    $mail->CharSet = 'utf-8';
+    $mail->setLanguage("br", "./venddor/phpmailer/language/");
+    $mail->CharSet = "utf-8";
     $mail->isHTML(true);
 
 
     /** usando o e-mail de contato */
-    $mail->Host = '';
+    $mail->Host = "";
     $mail->Port = 587; 
-    $mail->SMTPSecure = '';
+    $mail->SMTPSecure = "";
     $mail->SMTPDebug = 1;
     $mail->SMTPAuth = true;
-    $mail->Username = '';
-    $mail->Password = '';
+    $mail->Username = "";
+    $mail->Password = "";
     $mail->From = $origem;
     $mail->FromName = $nomeOrigem;
     $mail->Subject = $assunto;
