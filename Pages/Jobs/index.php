@@ -8,7 +8,7 @@
     <article class="bloco-jobs col-12 col-md-3">
       <h4 class="text-center">Serviço <?= $i ?></h4>
       <div class="col-12 float-start img-jobs">
-        <img src="../../assets/img//articles/job<?= $i ?>.jpg" alt="Serviço 1" class="img-fluid">
+        <img src="./assets/img//articles/job<?= $i ?>.jpg" alt="Serviço 1" class="img-fluid">
         <!-- <i class="fa-solid fa-person-digging icones-jobs"></i> -->
       </div>
       <div class="col-12 col-md-9 float-start">

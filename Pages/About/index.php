@@ -4,7 +4,7 @@
 
   <article id="About-Article" class="row">
     <div class="col-12 col-md-5">
-      <img src="../../assets/img/articles/about.jpg" alt="Sobre nós" class="img-fluid">
+      <img src="./assets/img/articles/about.jpg" alt="Sobre nós" class="img-fluid">
     </div>
 
     <div class="col-12 col-md-7">
