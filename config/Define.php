@@ -20,13 +20,14 @@
     $mail->setLanguage('br', './venddor/phpmailer/language/');
     $mail->CharSet = 'utf-8';
     $mail->isHTML(true);
+    $mail->ContentType = 'text/html';
 
 
     /** usando o e-mail de contato */
     $mail->Host = '';
     $mail->Port = 587;
-    $mail->SMTPSecure = '';
-    $mail->SMTPDebug = 1;
+    // $mail->SMTPSecure = '';
+    $mail->SMTPDebug = 0;
     $mail->SMTPAuth = true;
     $mail->Username = '';
     $mail->Password = '';
@@ -35,8 +36,10 @@
     $mail->Subject = $assunto;
     $mail->addAddress($destino);
     $mail->msgHTML($mensagem);
+
+    // echo $mail->msgHTML($mensagem);
     if( !$mail->Send() ){
-      return "Erro ao enviar o contato, tente novamente mais tarde.";
+      return "Erro ao enviar o contato, tente novamente mais tarde. " /*. print_r($mail->ErrorInfo)*/;
     }else{
       return "Ok";
     }
