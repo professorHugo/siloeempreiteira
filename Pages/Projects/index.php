@@ -1,6 +1,8 @@
-<section class="photo-gallery">
-  <h3 class="text-center">Nossos projetos</h3>
-  <hr class="hr">
+<?php if( isset($_GET['Page']) ){ $Page = $_GET['Page']; }else{ $Page = 'Home'; } ?>
+
+<section class="photo-gallery" style="padding-top: 1.5rem;">
+  <h2 class="text-center texto-cor-primaria texto-w-bolder">NOSSOS PROJETOS</h2>
+  <!-- <hr class="hr"> -->
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 gallery-grid">
       <div class="col">
@@ -8,47 +10,61 @@
           <img src="https://picsum.photos/id/251/480/320.webp" class="img-fluid" alt="Título do Projeto 1">
         </a>
       </div>
+
       <div class="col">
         <a class="gallery-item" href="https://picsum.photos/id/678/1200/800.webp">
           <img src="https://picsum.photos/id/678/480/320.webp" class="img-fluid" alt="Título do Projeto 2">
         </a>
       </div>
+      
       <div class="col">
         <a class="gallery-item" href="https://picsum.photos/id/74/1200/800.webp">
           <img src="https://picsum.photos/id/74/480/320.webp" class="img-fluid" alt="Título do Projeto 3">
         </a>
       </div>
-      <div class="col">
-        <a class="gallery-item" href="https://picsum.photos/id/92/1200/800.webp">
-          <img src="https://picsum.photos/id/92/480/320.webp" class="img-fluid" alt="Título do Projeto 4">
-        </a>
-      </div>
-      <div class="col">
-        <a class="gallery-item" href="https://picsum.photos/id/62/1200/800.webp">
-          <img src="https://picsum.photos/id/62/480/320.webp" class="img-fluid" alt="Título do Projeto 5">
-        </a>
-      </div>
-      <div class="col">
-        <a class="gallery-item" href="https://picsum.photos/id/575/1200/800.webp">
-          <img src="https://picsum.photos/id/575/480/320.webp" class="img-fluid" alt="Título do Projeto 6">
-        </a>
-      </div>
-      <div class="col">
-        <a class="gallery-item" href="https://picsum.photos/id/110/1200/800.webp">
-          <img src="https://picsum.photos/id/110/480/320.webp" class="img-fluid" alt="Título do Projeto 7">
-        </a>
-      </div>
-      <div class="col">
-        <a class="gallery-item" href="https://picsum.photos/id/177/1200/800.webp">
-          <img src="https://picsum.photos/id/177/480/320.webp" class="img-fluid" alt="Título do Projeto 8">
-        </a>
-      </div>
-      <div class="col">
-        <a class="gallery-item" href="https://picsum.photos/id/197/1200/800.webp">
-          <img src="https://picsum.photos/id/197/480/320.webp" class="img-fluid" alt="Título do Projeto 9">
-        </a>
-      </div>
+
+      <?php if( $Page == 'Projects' ){ ?>
+        <div class="col">
+          <a class="gallery-item" href="https://picsum.photos/id/92/1200/800.webp">
+            <img src="https://picsum.photos/id/92/480/320.webp" class="img-fluid" alt="Título do Projeto 4">
+          </a>
+        </div>
+        <div class="col">
+          <a class="gallery-item" href="https://picsum.photos/id/62/1200/800.webp">
+            <img src="https://picsum.photos/id/62/480/320.webp" class="img-fluid" alt="Título do Projeto 5">
+          </a>
+        </div>
+        <div class="col">
+          <a class="gallery-item" href="https://picsum.photos/id/575/1200/800.webp">
+            <img src="https://picsum.photos/id/575/480/320.webp" class="img-fluid" alt="Título do Projeto 6">
+          </a>
+        </div>
+        <div class="col">
+          <a class="gallery-item" href="https://picsum.photos/id/110/1200/800.webp">
+            <img src="https://picsum.photos/id/110/480/320.webp" class="img-fluid" alt="Título do Projeto 7">
+          </a>
+        </div>
+        <div class="col">
+          <a class="gallery-item" href="https://picsum.photos/id/177/1200/800.webp">
+            <img src="https://picsum.photos/id/177/480/320.webp" class="img-fluid" alt="Título do Projeto 8">
+          </a>
+        </div>
+        <div class="col">
+          <a class="gallery-item" href="https://picsum.photos/id/197/1200/800.webp">
+            <img src="https://picsum.photos/id/197/480/320.webp" class="img-fluid" alt="Título do Projeto 9">
+          </a>
+        </div>
+
+      <?php } ?>
+
     </div>
+
+    <?php if( $Page != 'Projects' ){ ?>
+      <div class="col-12 text-end" style="margin-top: 1.5rem;">
+        <a href="?Page=Projects" class="texto-cor-primaria">Ver Todos</a>
+      </div>
+      <hr>
+    <?php } ?>
   </div>
 </section>
 

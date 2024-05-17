@@ -66,9 +66,24 @@
 
 		<?php switch( $Page ){ case $Page : include 'Pages/' . $Page . '/index.php';break; } ?>
 
+		<div class="whatsapp-button">
+			<a 
+				href="https://api.whatsapp.com/send?phone=5511930007773&text=Oi%20Alex,%20estou%20vindo%20atrav%C3%A9s%20do%20seu%20site." 
+				target="_blank" 
+				rel="noopener noreferrer"
+				style="text-decoration: none; color: #fff"
+			>
+				<i class="fa-brands fa-whatsapp" style="color: #fff; font-size: 2rem; float: left"></i>&nbsp;
+				<span id="texto-btn-whatsapp" style="font-size: 0.8rem;">Está na dúvida? Fala com a gente</span>
+			</a>
+		</div>
+
 	</div>
 
 	<?php include 'components/footer.php';?>
+
+	<!-- Botão flutuante de envio de mensagem para o Whatsapp -->
+
 
 	<!-- Social Icons-->
 	<!-- <div class="social-icons">
@@ -82,7 +97,10 @@
 	<!-- Bootstrap core JS-->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
-	<!-- Core theme JS-->
+	<!-- Core Jquery -->
+	<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+
+	<!-- JS/scripts-->
 	<script src="js/scripts.js"></script>
 
 </body>

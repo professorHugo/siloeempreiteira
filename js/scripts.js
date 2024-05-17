@@ -1,7 +1,14 @@
-/*!
-* Start Bootstrap - Coming Soon v6.0.7 (https://startbootstrap.com/theme/coming-soon)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-coming-soon/blob/master/LICENSE)
-*/
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+/** Scripts personalizados */
+$(function(){
+  /** Largura da janela */
+  var largura = $(window).width();
+
+  console.log('largura: ', largura);
+
+  if( largura > 1300 ){
+    console.log('Janela > 1300, ajustar configurações do menu');
+    $("#menu").attr('style', 'padding: 10px 15%; margin: 0 auto');
+    $("#navbar-brand").removeClass('col-md-1').addClass('col-md-3');
+  }
+
+});

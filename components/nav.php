@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-lg bg-light">
+<nav class="navbar navbar-expand-lg bg-light" id="menu">
   <div class="container-fluid">
-    <a class="navbar-brand col-3 col-md-1" href="/">
-      <img src="../assets/logotipo.png" alt="Siloé Empreiteira" class="img-fluid" width="150px">
+    <a class="navbar-brand col-3 col-md-1" id="navbar-brand" href="/">
+      <img src="../assets/logotipo.png" alt="Siloé Empreiteira" class="img-fluid" id="img-logotipo">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
