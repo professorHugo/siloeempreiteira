@@ -68,7 +68,7 @@
 
 		<div class="whatsapp-button">
 			<a 
-				href="https://api.whatsapp.com/send?phone=5511930007773&text=Oi%20Alex,%20estou%20vindo%20atrav%C3%A9s%20do%20seu%20site." 
+				href="<?=$ConteudoLinkWhatsApp?>" 
 				target="_blank" 
 				rel="noopener noreferrer"
 				style="text-decoration: none; color: #fff"

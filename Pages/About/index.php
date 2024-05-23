@@ -1,34 +1,47 @@
-<section id="About" class="row">
-  <h3>Sobre nós</h3>
-  <hr class="hr">
+<section id="About" class="row padding-top-2vh">
+  <h1 class="texto-cor-primaria texto-w-bolder">Sobre nós</h1>
+  <!-- <hr> -->
+  
 
   <article id="About-Article" class="row">
     <div class="col-12 col-md-5">
-      <img src="./assets/img/articles/about.jpg" alt="Sobre nós" class="img-fluid">
+      <img src="./assets/img/About/about_2.png" alt="Sobre nós" class="img-fluid">
     </div>
 
     <div class="col-12 col-md-7">
-      <h4>Bem vindo à Siloé Empreiteira</h4>
-      <p class="lead" style="line-height: 0.4rem;">
-        onde cada projeto é moldado com excelência e dedicação.
+      <!-- <h4>Bem vindo à Siloé Empreiteira</h4> -->
+      
+      <p class="lead" style="line-height: 1.5rem; text-indent: 20px;">
+        Nascida em 1995 a Empreiteira Siloé foi liderada pelo Eng. Marley Queiroz em um pequeno grupo de investidores e seu ramo de atuação era de 
+        Reformas e Construção de escolas públicas.
       </p>
-      <p class="lead" style="line-height: 1.6rem;">
-        Somos mais do que construtores, somos criadores de sonhos.
-        Com décadas de experiência e um compromisso inabalável com a qualidade,
-        nós transformamos ideias em realidade.
+      <p class="lead" style="line-height: 1.5rem; text-indent: 20px;">
+        Com um certo tempo foi se especializando em prestação de serviços na parte de Carpintaria, Armação e Pintura Predial.
       </p>
-      <p class="lead" style="line-height: 1.6rem;">
-        Cada tijolo, cada traço, cada detalhe é cuidadosamente planejado e executado
-        para superar as expectativas dos nossos clientes.
+
+      <p class="lead" style="line-height: 1.5rem; text-indent: 20px;">
+        Hoje trabalhamos com uma grande equipe:
       </p>
-      <p class="lead" style="line-height: 1.6rem;">
-        Da concepção à entrega final, estamos ao seu lado,
-        garantindo que cada etapa seja realizada com precisão e profissionalismo.
+      <ul class="lead">
+        <li>Todos qualificados e documentados conforme as leis trabalhistas.</li>
+        <li>Seguimos todas as regras e padrões estabelecidos no mercado.</li>
+        <li>Todos os funcionários estão devidamente assegurados e bem preparados com equipamento de segurança.</li>
+        <li>Temos certificado de trabalho em altura.</li>
+        <li>Todos os colaboradores são devidamente treinados.</li>
+      </ul>
+    
+      <p class="lead" style="line-height: 1.5rem; text-indent: 20px;">
+        Estamos no mercado para garantir que sua obra terá início e término.
       </p>
-      <p class="lead" style="line-height: 1.6rem;">
-        Confie na Siloé Empreiteira para construir o futuro que você merece.
-        Seja bem-vindo à excelência. Seja bem-vindo à Siloé Empreiteira.
+
+      <p class="lead" style="line-height: 1.5rem; text-indent: 20px;">
+        Mais de 28 anos atuando no ramo de empreiteira, sempre com a melhor mão de obra e o melhor custo benefício do mercado.
       </p>
+
+      <ul class="lead">
+        <li>Empresa que segura a sua obra com uma garantia de até 5 anos.</li>
+        <li>Estabilidade e segurança na obra só uma empresa como a nossa pode oferecer!</li>
+      </ul>
     </div>
   </article>
 

@@ -6,39 +6,41 @@
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 gallery-grid">
       <div class="col">
-        <a class="gallery-item" href="https://picsum.photos/id/251/1200/800.webp">
-          <img src="https://picsum.photos/id/251/480/320.webp" class="img-fluid" alt="Título do Projeto 1">
+        <a class="gallery-item" href="../../assets/img/Projects/FOTOS_CONTRUCAO_MINI.png">
+          <img src="../../assets/img/Projects/FOTOS_CONTRUCAO.png" class="img-fluid" alt="Construção">
         </a>
       </div>
 
       <div class="col">
-        <a class="gallery-item" href="https://picsum.photos/id/678/1200/800.webp">
-          <img src="https://picsum.photos/id/678/480/320.webp" class="img-fluid" alt="Título do Projeto 2">
+        <a class="gallery-item" href="../../assets/img/Projects/FOTOS_PINTURA_PREDIAL_MINI.png">
+          <img src="../../assets/img/Projects/FOTOS_PINTURA_PREDIAL.png" class="img-fluid" alt="Pintura Predial">
         </a>
       </div>
       
       <div class="col">
-        <a class="gallery-item" href="https://picsum.photos/id/74/1200/800.webp">
-          <img src="https://picsum.photos/id/74/480/320.webp" class="img-fluid" alt="Título do Projeto 3">
+        <a class="gallery-item" href="../../assets/img/Projects/FOTOS_REFORMA_DE_FACHADA_MINI.png">
+          <img src="../../assets/img/Projects/FOTOS_REFORMA_DE_FACHADA.png" class="img-fluid" alt="Reforma de Fachada">
         </a>
       </div>
 
       <?php if( $Page == 'Projects' ){ ?>
         <div class="col">
-          <a class="gallery-item" href="https://picsum.photos/id/92/1200/800.webp">
-            <img src="https://picsum.photos/id/92/480/320.webp" class="img-fluid" alt="Título do Projeto 4">
+          <a class="gallery-item" href="../../assets/img/Projects/FOTOS_IMPERMEABILIZACAO_MINI.png">
+            <img src="../../assets/img/Projects/FOTOS_IMPERMEABILIZACAO.png" class="img-fluid" alt="Impermeabilização">
           </a>
         </div>
         <div class="col">
-          <a class="gallery-item" href="https://picsum.photos/id/62/1200/800.webp">
-            <img src="https://picsum.photos/id/62/480/320.webp" class="img-fluid" alt="Título do Projeto 5">
+          <a class="gallery-item" href="../../assets/img/Projects/FOTOS_PINTURA_MINI.png">
+            <img src="../../assets/img/Projects/FOTOS_PINTURA.png" class="img-fluid" alt="Título do Projeto 5">
           </a>
         </div>
         <div class="col">
-          <a class="gallery-item" href="https://picsum.photos/id/575/1200/800.webp">
-            <img src="https://picsum.photos/id/575/480/320.webp" class="img-fluid" alt="Título do Projeto 6">
+          <a class="gallery-item" href="../../assets/img/Projects/FOTOS_TELHADO_MINI.png">
+            <img src="../../assets/img/Projects/FOTOS_TELHADO.png" class="img-fluid" alt="Título do Projeto 6">
           </a>
         </div>
+
+        <!-- 
         <div class="col">
           <a class="gallery-item" href="https://picsum.photos/id/110/1200/800.webp">
             <img src="https://picsum.photos/id/110/480/320.webp" class="img-fluid" alt="Título do Projeto 7">
@@ -54,6 +56,7 @@
             <img src="https://picsum.photos/id/197/480/320.webp" class="img-fluid" alt="Título do Projeto 9">
           </a>
         </div>
+        -->
 
       <?php } ?>
 
