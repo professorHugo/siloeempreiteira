@@ -32,7 +32,7 @@
       <ul>
         <li>
           <a href="<?= $ConteudoLinkEmail ?>">
-            <i class="fas fa-envelope"></i> E-mail: contato@siloempreiteira.com
+            <i class="fas fa-envelope"></i> E-mail: contato@siloempreiteira.com.br
           </a>
         </li>
           <a href="<?= $ConteudoLinkWhatsApp ?>">
