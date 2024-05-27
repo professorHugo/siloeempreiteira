@@ -31,12 +31,28 @@
         </div>
         <div class="col">
           <a class="gallery-item" href="assets/img/Projects/FOTOS_PINTURA_MINI.png">
-            <img src="assets/img/Projects/FOTOS_PINTURA.png" class="img-fluid" alt="Título do Projeto 5">
+            <img src="assets/img/Projects/FOTOS_PINTURA.png" class="img-fluid" alt="Pintura">
           </a>
         </div>
         <div class="col">
           <a class="gallery-item" href="assets/img/Projects/FOTOS_TELHADO_MINI.png">
-            <img src="assets/img/Projects/FOTOS_TELHADO.png" class="img-fluid" alt="Título do Projeto 6">
+            <img src="assets/img/Projects/FOTOS_TELHADO.png" class="img-fluid" alt="Telhados">
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="gallery-item" href="assets/img/Projects/FOTOS_PINTURA_COMERCIAL.png">
+            <img src="assets/img/Projects/FOTOS_PINTURA_COMERCIAL.png" class="img-fluid" alt="Pintura Comercial">
+          </a>
+        </div>
+        <div class="col">
+          <a class="gallery-item" href="assets/img/Projects/FOTOS_REVESTIMENTO.png">
+            <img src="assets/img/Projects/FOTOS_REVESTIMENTO.png" class="img-fluid" alt="Revestimentos">
+          </a>
+        </div>
+        <div class="col">
+          <a class="gallery-item" href="assets/img/Projects/FOTOS_TELHADO_2.png">
+            <img src="assets/img/Projects/FOTOS_TELHADO_2.png" class="img-fluid" alt="Telhados">
           </a>
         </div>
 
