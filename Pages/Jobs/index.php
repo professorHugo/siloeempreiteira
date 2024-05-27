@@ -6,8 +6,7 @@
   <article class="bloco-jobs col-12 col-md-3">
     <h4 class="text-center">Hidráulica</h4>
     <div class="col-12 float-start img-jobs">
-      <img src="./assets/img/img-not-found.png" alt="Serviço 1" class="img-fluid">
-      <!-- <i class="fa-solid fa-person-digging icones-jobs"></i> -->
+      <img src="./assets/img/Jobs/FOTOS_HIDRAULICA.png" alt="Serviço 1" class="img-fluid">
     </div>
     <div class="col-12 float-start">
       <p class="lead text-justify">
@@ -20,7 +19,7 @@
   <article class="bloco-jobs col-12 col-md-3">
     <h4 class="text-center">Elétrica</h4>
     <div class="col-12 float-start img-jobs">
-      <img src="./assets/img/img-not-found.png" alt="Serviço 1" class="img-fluid">
+      <img src="./assets/img/Jobs/FOTOS_ELETRICA.png" alt="Serviço 1" class="img-fluid">
       <!-- <i class="fa-solid fa-person-digging icones-jobs"></i> -->
     </div>
     <div class="col-12 float-start">
@@ -79,7 +78,7 @@
   <article class="bloco-jobs col-12 col-md-3">
     <h4 class="text-center">Pintura interna</h4>
     <div class="col-12 float-start img-jobs">
-      <img src="./assets/img/img-not-found.png" alt="Serviço 1" class="img-fluid">
+      <img src="./assets/img/Jobs/FOTOS_PINTURA_INTERNA.png" alt="Serviço 1" class="img-fluid">
       <!-- <i class="fa-solid fa-person-digging icones-jobs"></i> -->
     </div>
     <div class="col-12 float-start">
