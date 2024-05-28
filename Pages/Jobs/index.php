@@ -20,7 +20,7 @@
     </div>
   </article>
 
-  <article class="bloco-jobs col-12" id="eletrica">
+  <article class="bloco-jobs bloco-jobs-cor-2 col-12" id="eletrica">
     <div class="col-12 col-md-7 float-start">
       <h4 class="col-12 text-center">Elétrica</h4>
       <p class="lead text-justify article">
@@ -35,7 +35,7 @@
     </div>
   </article>
 
-  <article class="bloco-jobs col-12" id="eletrica2">
+  <article class="bloco-jobs bloco-jobs-cor-2 col-12" id="eletrica2">
     <div class="col-12 col-md-4 float-start img-jobs">
       <img src="./assets/img/Jobs/FOTOS_ELETRICA.png" alt="Elétrica" class="img-fluid">
       <!-- <i class="fa-solid fa-person-digging icones-jobs"></i> -->
@@ -63,7 +63,7 @@
     </div>
   </article>
 
-  <article class="bloco-jobs col-12" id="revestimentos">
+  <article class="bloco-jobs bloco-jobs-cor-2 col-12" id="revestimentos">
     <div class="col-12 col-md-7 float-start">
       <h4 class="col-12 text-center">Revestimentos</h4>
       <p class="lead text-justify article">
@@ -78,7 +78,7 @@
     </div>
   </article>
 
-  <article class="bloco-jobs col-12" id="revestimentos2">
+  <article class="bloco-jobs bloco-jobs-cor-2 col-12" id="revestimentos2">
     <div class="col-12 col-md-4 float-start img-jobs">
       <img src="./assets/img/Jobs/FOTOS_REVESTIMENTO.png" alt="Revestimentos" class="img-fluid">
       <!-- <i class="fa-solid fa-person-digging icones-jobs"></i> -->
@@ -92,7 +92,7 @@
     </div>
   </article>
 
-  <div class="col-12">&nbsp;</div>
+  <div class="col-12" id="space">&nbsp;</div>
 
 
   <article class="bloco-jobs col-12" id="impermeabilizacao">
@@ -110,7 +110,7 @@
     </div>
   </article>
 
-  <article class="bloco-jobs col-12" id="pintura_interna">
+  <article class="bloco-jobs bloco-jobs-cor-2 col-12" id="pintura_interna">
     <div class="col-12 col-md-7 float-start">
       <h4 class="col-12 text-center">Pintura interna</h4>
       <p class="lead text-justify article">
@@ -125,7 +125,7 @@
     </div>
   </article>
 
-  <article class="bloco-jobs col-12" id="pintura_interna2">
+  <article class="bloco-jobs bloco-jobs-cor-2 col-12" id="pintura_interna2">
     <div class="col-12 col-md-4 float-start img-jobs">
       <img src="./assets/img/Jobs/FOTOS_PINTURA_INTERNA.png" alt="Pintura Interna" class="img-fluid">
       <!-- <i class="fa-solid fa-person-digging icones-jobs"></i> -->
