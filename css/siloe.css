@@ -31,8 +31,8 @@
 .bg-siloe-secundaria-opacidade{ background-color: var(--cor-secundaria-opacidade); }
 
 .texto-chamada-checkbox{ font-size: 1.2rem; }
-
 .text-justify{ text-align: justify; }
+
 
 
 .carousel-control-prev {
@@ -310,6 +310,14 @@ footer{
 }
 
 @media (min-width : 990px) {
+
+  /* Blocos na Pagina Jobs */
+  .bloco-jobs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   nav div.container-fluid #navbarNavDropdown ul {
     display: flex;
     justify-content: center;
