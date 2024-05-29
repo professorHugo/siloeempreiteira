@@ -1,9 +1,9 @@
-<section id="About" class="row padding-top-2vh">
+<section id="About" class="row bloco-jobs-cor padding-top-2vh padding-bottom-1vh" style="margin-bottom: -15px;">
   <h1 class="texto-cor-primaria texto-w-bolder">Sobre nós</h1>
   <!-- <hr> -->
   
 
-  <article id="About-Article" class="row">
+  <article id="About-Article" class="row padding-top-2vh">
     <div class="col-12 col-md-5">
       <img src="./assets/img/About/about_2.png" alt="Sobre nós" class="img-fluid">
     </div>
