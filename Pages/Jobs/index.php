@@ -7,7 +7,7 @@
     
   <?php } ?>
 
-  <article class="bloco-jobs col-12" id="hidraulica">
+  <article class="bloco-jobs bloco-jobs-cor col-12" id="hidraulica">
     <div class="col-12 col-md-4 img-jobs">
       <img src="./assets/img/Jobs/FOTOS_HIDRAULICA.png" alt="Hidráulica" class="img-fluid">
     </div>
@@ -49,7 +49,7 @@
     </div>
   </article>
 
-  <article class="bloco-jobs col-12" id="pintura_predial">
+  <article class="bloco-jobs bloco-jobs-cor col-12" id="pintura_predial">
     <div class="col-12 col-md-4 float-start img-jobs">
       <img src="./assets/img/Jobs/FOTOS_PINTURA_PREDIAL.png" alt="Pintura Predial" class="img-fluid">
       <!-- <i class="fa-solid fa-person-digging icones-jobs"></i> -->
@@ -92,10 +92,10 @@
     </div>
   </article>
 
-  <div class="col-12">&nbsp;</div>
+  <div class="col-12" id="space">&nbsp;</div>
 
 
-  <article class="bloco-jobs col-12" id="impermeabilizacao">
+  <article class="bloco-jobs bloco-jobs-cor col-12" id="impermeabilizacao">
     <div class="col-12 col-md-4 float-start img-jobs">
       <img src="./assets/img/Jobs/FOTOS_IMPERMEABILIZACAO.png" alt="Impermeabilização" class="img-fluid">
       <!-- <i class="fa-solid fa-person-digging icones-jobs"></i> -->
@@ -139,7 +139,7 @@
     </div>
   </article>
 
-  <article class="bloco-jobs col-12" id="telhadista">
+  <article class="bloco-jobs bloco-jobs-cor col-12" id="telhadista">
     <div class="col-12 col-md-4 float-start img-jobs">
       <img src="./assets/img/Jobs/FOTOS_TELHADO.png" alt="Telhadista" class="img-fluid">
       <!-- <i class="fa-solid fa-person-digging icones-jobs"></i> -->

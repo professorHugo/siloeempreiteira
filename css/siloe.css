@@ -33,6 +33,9 @@
 .texto-chamada-checkbox{ font-size: 1.2rem; }
 .text-justify{ text-align: justify; }
 
+/* .bloco-jobs{ background-color: #128c7e; } */
+.bloco-jobs-cor{ background-color: #ede7dd; color: #000;}
+
 
 
 .carousel-control-prev {
