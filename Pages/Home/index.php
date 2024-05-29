@@ -48,14 +48,14 @@
 
     <div class="row">
 
-      <div class="col-md"></div>
+      <div class="col-md-3"></div>
       <div class="col-md-3">
         <img src="assets/icone-checkbox-home.png" alt="" class="img-fluid" width="32px">
         <span class="texto-w-bolder text-white texto-chamada-checkbox">Obra limpa e organizada</span>
       </div>
-      <div class="col-md">
+      <div class="col-md-4">
         <img src="assets/icone-checkbox-home.png" alt="" class="img-fluid" width="32px">
-        <span class="texto-w-bolder text-white texto-chamada-checkbox">Parcelamento em até 10x</span>
+        <span class="texto-w-bolder text-white texto-chamada-checkbox">Parcelamento em até 10x sem juros</span>
       </div>
       <div class="col-md"></div>
 
