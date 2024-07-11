@@ -50,6 +50,8 @@
 	<!-- Core theme CSS (includes Bootstrap)-->
 	<!-- <link href="css/styles.css" rel="stylesheet" /> -->
 	<link href="css/siloe.css" rel="stylesheet" />
+
+	<?php include 'components/pixel_meta.php'; ?>
 </head>
 
 <body id="Body">
