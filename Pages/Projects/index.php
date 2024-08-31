@@ -1,10 +1,37 @@
-<?php if( isset($_GET['Page']) ){ $Page = $_GET['Page']; }else{ $Page = 'Home'; } ?>
+<?php if (isset($_GET['Page'])) {
+  $Page = $_GET['Page'];
+} else {
+  $Page = 'Home';
+} ?>
 
 <section class="photo-gallery" style="padding-top: 1.5rem;">
   <h2 class="text-center texto-cor-primaria texto-w-bolder">NOSSOS PROJETOS</h2>
   <!-- <hr class="hr"> -->
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 gallery-grid">
+
+      <div class="col">
+        <a class="gallery-item" href="assets/img/Projects/FOTOS_VIGA_ESQUERDA.png">
+          <img src="assets/img/Projects/FOTOS_VIGA_ESQUERDA.png" class="img-fluid" alt="Preparação de Vigas">
+        </a>
+      </div>
+
+
+      <div class="col">
+        <a class="gallery-item" href="assets/img/Projects/FOTOS_EQUIPE_CENTRO.jpg">
+          <img src="assets/img/Projects/FOTOS_EQUIPE_CENTRO.jpg" class="img-fluid" alt="Equipe Siloé">
+        </a>
+      </div>
+
+      <div class="col">
+        <a class="gallery-item" href="assets/img/Projects/FOTO-FUNDACAO.jpg">
+          <img src="assets/img/Projects/FOTO-FUNDACAO.jpg" class="img-fluid" alt="Preparação de Fundação">
+        </a>
+      </div>
+
+      
+
+
       <div class="col">
         <a class="gallery-item" href="assets/img/Projects/FOTOS_CONTRUCAO_MINI.png">
           <img src="assets/img/Projects/FOTOS_CONTRUCAO.png" class="img-fluid" alt="Construção">
@@ -16,14 +43,14 @@
           <img src="assets/img/Projects/FOTOS_PINTURA_PREDIAL.png" class="img-fluid" alt="Pintura Predial">
         </a>
       </div>
-      
+
       <div class="col">
         <a class="gallery-item" href="assets/img/Projects/FOTOS_REFORMA_DE_FACHADA_MINI.png">
           <img src="assets/img/Projects/FOTOS_REFORMA_DE_FACHADA.png" class="img-fluid" alt="Reforma de Fachada">
         </a>
       </div>
 
-      <?php if( $Page == 'Projects' ){ ?>
+      <?php if ($Page == 'Projects') { ?>
         <div class="col">
           <a class="gallery-item" href="assets/img/Projects/FOTOS_IMPERMEABILIZACAO_MINI.png">
             <img src="assets/img/Projects/FOTOS_IMPERMEABILIZACAO.png" class="img-fluid" alt="Impermeabilização">
@@ -56,12 +83,80 @@
           </a>
         </div>
 
-        <!-- 
+         
         <div class="col">
-          <a class="gallery-item" href="https://picsum.photos/id/110/1200/800.webp">
-            <img src="https://picsum.photos/id/110/480/320.webp" class="img-fluid" alt="Título do Projeto 7">
+          <a class="gallery-item" href="assets/img/Projects/FOTOS_EQUIPE_03.png">
+            <img src="assets/img/Projects/FOTOS_EQUIPE_03.png" class="img-fluid" alt="Foto Projeto">
           </a>
         </div>
+
+        <div class="col">
+          <a class="gallery-item" href="assets/img/Projects/FOTOS_EQUIPE_04.png">
+            <img src="assets/img/Projects/FOTOS_EQUIPE_04.png" class="img-fluid" alt="Foto Projeto">
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="gallery-item" href="assets/img/Projects/FOTOS_EQUIPE_11.png">
+            <img src="assets/img/Projects/FOTOS_EQUIPE_11.png" class="img-fluid" alt="Foto Projeto">
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="gallery-item" href="assets/img/Projects/FOTOS_EQUIPE_08.png">
+            <img src="assets/img/Projects/FOTOS_EQUIPE_08.png" class="img-fluid" alt="Foto Projeto">
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="gallery-item" href="assets/img/Projects/FOTOS_EQUIPE_13.png">
+            <img src="assets/img/Projects/FOTOS_EQUIPE_13.png" class="img-fluid" alt="Foto Projeto">
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="gallery-item" href="assets/img/Projects/FOTOS_EQUIPE_12.png">
+            <img src="assets/img/Projects/FOTOS_EQUIPE_12.png" class="img-fluid" alt="Foto Projeto">
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="gallery-item" href="assets/img/Projects/FOTOS_EQUIPE_10.png">
+            <img src="assets/img/Projects/FOTOS_EQUIPE_10.png" class="img-fluid" alt="Foto Projeto">
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="gallery-item" href="assets/img/Projects/FOTOS_EQUIPE_07.png">
+            <img src="assets/img/Projects/FOTOS_EQUIPE_07.png" class="img-fluid" alt="Foto Projeto">
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="gallery-item" href="assets/img/Projects/FOTOS_EQUIPE_06.png">
+            <img src="assets/img/Projects/FOTOS_EQUIPE_06.png" class="img-fluid" alt="Foto Projeto">
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="gallery-item" href="assets/img/Projects/FOTOS_EQUIPE_09.png">
+            <img src="assets/img/Projects/FOTOS_EQUIPE_09.png" class="img-fluid" alt="Foto Projeto">
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="gallery-item" href="assets/img/Projects/FOTOS_EQUIPE_05.png">
+            <img src="assets/img/Projects/FOTOS_EQUIPE_05.png" class="img-fluid" alt="Foto Projeto">
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="gallery-item" href="assets/img/Projects/FOTOS_EQUIPE_02.png">
+            <img src="assets/img/Projects/FOTOS_EQUIPE_02.png" class="img-fluid" alt="Foto Projeto">
+          </a>
+        </div>
+        
+        <!--
         <div class="col">
           <a class="gallery-item" href="https://picsum.photos/id/177/1200/800.webp">
             <img src="https://picsum.photos/id/177/480/320.webp" class="img-fluid" alt="Título do Projeto 8">
@@ -78,7 +173,7 @@
 
     </div>
 
-    <?php if( $Page != 'Projects' ){ ?>
+    <?php if ($Page != 'Projects') { ?>
       <div class="col-12 text-end" style="margin-top: 1.5rem;">
         <a href="?Page=Projects" class="texto-cor-primaria">Ver Todos</a>
       </div>
@@ -244,5 +339,4 @@
       exitFS();
     });
   });
-
 </script>
