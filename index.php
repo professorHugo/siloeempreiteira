@@ -30,10 +30,9 @@
 	<div class="masthead">
 		<div class="masthead-content text-white">
 			<div class="container-fluid px-4 px-lg-0">
-				<h1 class="fst-italic lh-1 mb-4">Nosso Website chegará em breve</h1>
+				<h1 class="fst-italic lh-1 mb-4">Website indisponível</h1>
 				<p class="mb-5">
-					Estamos trabalhando para finalizar o desenvolvimento deste website.
-					Se quiser se adiantar, chama a gente no WhatsApp!
+					Website temporariamente indisponível!
 				</p>
 
 
@@ -47,12 +46,12 @@
 	<div class="social-icons">
 		<div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
 			<!-- <a class="btn btn-dark m-3" href="#!"><i class="fab fa-twitter"></i></a> -->
-			<a class="btn btn-dark m-3" target="_blank" href="https://www.facebook.com/empreireirasiloe"><i
+			<a class="btn btn-dark m-3" target="_blank" href="https://www.facebook.com/"><i
 					class="fab fa-facebook-f"></i></a>
-			<a class="btn btn-dark m-3" target="_blank" href="https://www.instagram.com/siloeempreiteira/"><i
+			<a class="btn btn-dark m-3" target="_blank" href="https://www.instagram.com/"><i
 					class="fab fa-instagram"></i></a>
 			<a class="btn btn-dark m-3" target="_blank"
-				href="https://api.whatsapp.com/send?phone=5511930007773&text=Oi%20Alex,%20estou%20vindo%20atrav%C3%A9s%20do%20seu%20site."><i
+				href="https://api.whatsapp.com/"><i
 					class="fab fa-whatsapp"></i></a>
 		</div>
 	</div>
